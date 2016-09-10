@@ -16,7 +16,7 @@ xkb_symbols "dvp" {
 
     // symbols row, right side
     key <AE07> { [ asterisk,        0,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE08> { [ parenright,      2,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AE08> { [ parenright,      2,              NoSymbol,        NoSymbol,        dead_diaeresis              ] };
     key <AE09> { [ plus,            4,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
     key <AE10> { [ bracketright,    6,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
     key <AE11> { [ exclam,          8,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
