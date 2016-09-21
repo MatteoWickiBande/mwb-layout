@@ -92,7 +92,7 @@ xkb_symbols "dvorak" {
     override key <AE05> { [ 5,                  percent,        NoSymbol,       NoSymbol,       NoSymbol        ] };
     override key <AE06> { [ 6,                  asciicircum,    NoSymbol,       NoSymbol,       NoSymbol        ] };
     override key <AE07> { [ 7,                  ampersand,      NoSymbol,       NoSymbol,       NoSymbol        ] };
-    override key <AE08> { [ 8,                  asterisk,       NoSymbol,       NoSymbol,       NoSymbol        ] };
+    override key <AE08> { [ 8,                  asterisk,       NoSymbol,       NoSymbol,       dead_diaeresis  ] };
     override key <AE09> { [ 9,                  parenleft,      NoSymbol,       NoSymbol,       NoSymbol        ] };
     override key <AE10> { [ 0,                  parenright,     NoSymbol,       NoSymbol,       NoSymbol        ] };
     override key <AE11> { [ bracketleft,        braceleft,      NoSymbol,       NoSymbol,       NoSymbol        ] };
@@ -102,7 +102,4 @@ xkb_symbols "dvorak" {
     override key <AD12> { [ equal,              plus,           NoSymbol,       NoSymbol,       NoSymbol        ] };
 
     override key <AB01> { [ semicolon,          colon,          NoSymbol,       NoSymbol,       NoSymbol        ] };
-
-    include "level5(ralt_switch)"
-    include "level5(lsgt_switch)"
 };
