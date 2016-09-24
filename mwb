@@ -103,3 +103,64 @@ xkb_symbols "dvorak" {
 
     override key <AB01> { [ semicolon,          colon,          NoSymbol,       NoSymbol,       NoSymbol        ] };
 };
+
+partial alphanumeric_keys
+xkb_symbols "dvorak-l" {
+
+    name[Group1]= "English (mwb-dvorak-l)";
+
+    key <AE01> {	[ bracketleft,	braceleft	]	};
+    key <AE02> {	[ bracketright,	braceright	]	};
+    key <AE03> {	[	slash,	question	]	};
+    key <AE04> {	[	    p,	P		]	};
+    key <AE05> {	[	    f,	F		]	};
+    key <AE06> {	[	    m,	M		]	};
+    key <AE07> {	[	    l,	L		]	};
+    key <AE08> {	[	    j,	J		]	};
+    key <AE09> {	[	    4,	dollar		]	};
+    key <AE10> {	[	    3,	numbersign	]	};
+    key <AE11> {	[	    2,	at		]	};
+    key <AE12> {	[	    1,	exclam 		]	};
+
+    key <AD01> {	[   semicolon,	colon 		]	};
+    key <AD02> {	[	    q,	Q		]	};
+    key <AD03> {	[	    b,	B		]	};
+    key <AD04> {	[	    y,	Y		]	};
+    key <AD05> {	[	    u,	U		]	};
+    key <AD06> {	[	    r,	R		]	};
+    key <AD07> {	[	    s,	S		]	};
+    key <AD08> {	[	    o,	O		]	};
+    key <AD09> {	[      period,	greater		]	};
+    key <AD10> {	[	    6,	asciicircum	]	};
+    key <AD11> {	[	    5,	percent		]	};
+    key <AD12> {	[	equal,	plus		]	};
+
+    key <AC01> {	[	minus,	underscore	]	};
+    key <AC02> {	[	    k,	K		]	};
+    key <AC03> {	[	    c,	C		]	};
+    key <AC04> {	[	    d,	D		]	};
+    key <AC05> {	[	    t,	T		]	};
+    key <AC06> {	[	    h,	H		]	};
+    key <AC07> {	[	    e,	E		]	};
+    key <AC08> {	[	    a,	A 		]	};
+    key <AC09> {	[	    z,	Z		]	};
+    key <AC10> {	[	    8,	asterisk	]	};
+    key <AC11> {	[	    7,	ampersand	]	};
+
+    key <AB01> {	[  apostrophe,	quotedbl	] 	};
+    key <AB02> {	[	    x,	X		]	};
+    key <AB03> {	[	    g,	G		]	};
+    key <AB04> {	[	    v,	V		]	};
+    key <AB05> {	[	    w,	W		]	};
+    key <AB06> {	[	    n,	N		]	};
+    key <AB07> {	[	    i,	I		]	};
+    key <AB08> {	[	comma,	less		]	};
+    key <AB09> {	[	    0,	parenright	]	};
+    key <AB10> {	[	    9,	parenleft	]	};
+
+    override key <SPCE> { [ Shift_L ] };
+    override key <FK12> { [ space ]};
+    // modifier_map Shift { <SPCE> };
+
+
+};
