@@ -71,7 +71,6 @@ xkb_symbols "dvp" {
 
     key <SPCE> { [ space,           space,          NoSymbol,        NoSymbol,        KP_0                        ] };
 
-    include "level5(ralt_switch)"
     include "level5(lsgt_switch)"
 
 };
