@@ -29,8 +29,7 @@
 ! --------------------------------------------------------------------------
 ! Special keys
 ! --------------------------------------------------------------------------
-	keycode 100 = CtrlL            	# New mod key, used for the additional layer
-	keycode   1 = Caps_Lock 	# Swap caps and Esc
+	keycode  86 = CtrlL            	# New mod key, used for the additional layer
 	keycode  58 = Escape
 
 ! --------------------------------------------------------------------------
@@ -45,6 +44,7 @@
 	keycode   7 = equal          nine
 	keycode   8 = asterisk       zero
 	keycode   9 = parenright     two
+CtrlL	keycode   9 = dead_diaeresis
 	keycode  10 = plus           four
 	keycode  11 = bracketright   six
 	keycode  12 = exclam         eight
@@ -57,22 +57,24 @@
 	keycode  15 = Tab
 	keycode  16 = semicolon      colon
 	keycode  17 = comma          less
-ctrll   keycode  17 = Home
+CtrlL	keycode  17 = Home
 	keycode  18 = period         greater
-ctrll   keycode  18 = Up
+CtrlL	keycode  18 = Up
 	keycode  19 = p
-ctrll   keycode  19 = End
+CtrlL	keycode  19 = End
 	keycode  20 = y
-ctrll   keycode  20 = PageUp
+CtrlL	keycode  20 = PageUp
 	keycode  21 = f
 	keycode  22 = g
-ctrll   keycode  22 = seven
+CtrlL	keycode  22 = seven
 	keycode  23 = c
-ctrll   keycode  23 = eight
+CtrlL	keycode  23 = eight
 	keycode  24 = r
-ctrll   keycode  24 = nine
+CtrlL	keycode  24 = nine
 	keycode  25 = l
+CtrlL	keycode  25 = Delete
 	keycode  26 = slash          question
+CtrlL	keycode  26 = asterisk
 	keycode  27 = at             asciicircum
 	keycode  28 = Return
 
@@ -81,23 +83,25 @@ ctrll   keycode  24 = nine
 ! --------------------------------------------------------------------------
 	keycode  30 = a
 	keycode  31 = o
-ctrll   keycode  31 = Left
+CtrlL	keycode  31 = Left
 	keycode  32 = e
-ctrll   keycode  32 = Down
+CtrlL	keycode  32 = Down
 	keycode  33 = u
-ctrll   keycode  33 = Right
+CtrlL	keycode  33 = Right
 	keycode  34 = i
-ctrll   keycode  34 = PageDown
+CtrlL	keycode  34 = PageDown
 	keycode  35 = d
-ctrll   keycode  35 = Return
+CtrlL	keycode  35 = Return
 	keycode  36 = h
-ctrll   keycode  36 = four 
+CtrlL	keycode  36 = four
 	keycode  37 = t
-ctrll   keycode  37 = five
+CtrlL	keycode  37 = five
 	keycode  38 = n
-ctrll   keycode  38 = six
+CtrlL	keycode  38 = six
 	keycode  39 = s
+CtrlL	keycode  39 = BackSpace
 	keycode  40 = minus          underscore
+CtrlL	keycode  40 = plus
 	keycode  43 = backslash      bar
 
 ! --------------------------------------------------------------------------
@@ -109,16 +113,15 @@ ctrll   keycode  38 = six
 	keycode  46 = j
 	keycode  47 = k
 	keycode  48 = x
-ctrll   keycode  48 = Delete
 	keycode  49 = b
-ctrll   keycode  49 = BackSpace
 	keycode  50 = m
-ctrll   keycode  50 = one
+CtrlL	keycode  50 = one
 	keycode  51 = w
-ctrll   keycode  51 = two
+CtrlL	keycode  51 = two
 	keycode  52 = v
-ctrll   keycode  52 = three
+CtrlL	keycode  52 = three
 	keycode  53 = z
+CtrlL	keycode  53 = period
 	keycode  54 = Shift
 
 ! --------------------------------------------------------------------------
@@ -127,5 +130,6 @@ ctrll   keycode  52 = three
 	keycode  29 = Control
 	keycode  56 = Alt
 	keycode  57 = space
+CtrlL	keycode  57 = zero
 	keycode  97 = Control
 

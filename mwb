@@ -53,17 +53,17 @@ xkb_symbols "dvp" {
     key <AC09> { [ n,               N,              NoSymbol,        NoSymbol,        KP_6                        ] };
     key <AC10> { [ s,               S,              NoSymbol,        NoSymbol,        BackSpace                   ] };
     key <AC11> { [ minus,           underscore,     NoSymbol,        NoSymbol,        plus                        ] };
-    key <BKSL> { [ backslash,       bar,            NoSymbol,        NoSymbol,        equal                       ] };
+    key <BKSL> { [ backslash,       bar,            NoSymbol,        NoSymbol,        NoSymbol                    ] };
 
     // lower row, left side
     key <AB01> { [ apostrophe,      quotedbl,       NoSymbol,        NoSymbol,        NoSymbol                    ] };
     key <AB02> { [ q,               Q,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
     key <AB03> { [ j,               J,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB04> { [ k,               K,              NoSymbol,        NoSymbol,        Delete                      ] };
-    key <AB05> { [ x,               X,              NoSymbol,        NoSymbol,        Delete                      ] };
+    key <AB04> { [ k,               K,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AB05> { [ x,               X,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
 
     // lower row, right side
-    key <AB06> { [ b,               B,              NoSymbol,        NoSymbol,        BackSpace                   ] };
+    key <AB06> { [ b,               B,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
     key <AB07> { [ m,               M,              NoSymbol,        NoSymbol,        KP_1                        ] };
     key <AB08> { [ w,               W,              NoSymbol,        NoSymbol,        KP_2                        ] };
     key <AB09> { [ v,               V,              NoSymbol,        NoSymbol,        KP_3                        ] };
