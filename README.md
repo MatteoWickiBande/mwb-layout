@@ -6,15 +6,6 @@ Preview of the mwb-layout (programmer dvorak variant). It was designed to be use
 * Numpad on the right side
 * Navigation keys like Home, End, PgUp and PgDn are easy to acces
 
-#Change the behaviour of CapsLock
-The layout does not change the behaviour of the Capslock key. However, it is advised that the user does that, since this key is, compared to Esc and Ctrl, easy to access but usually not used as often.
-One recommendation is, to use CapsLock as Esc when pressed normally, and to make it behave like Ctrl when used as a mod key:
-```
-setxbmap -option 'caps:ctrl_modifier' # Maps the key to Ctrl
-xcape -e '#66=Escape'
-```
-xcape can be found in many distributions repositories, or on github: [https://github.com/alols/xcape]: https://github.com/alols/xcape
-
 #Installation in your $HOME:
 ```
 mkdir -p ~/.xkb/symbols/
@@ -56,3 +47,11 @@ On OpenRC you can edit the file /etc/conf.d/keymaps and set
 ```
 keymap="mwb"
 ```
+#Change the behaviour of CapsLock
+The layout does not change the behaviour of the Capslock key. However, it is advised that the user does that, since this key is, compared to Esc and Ctrl, easy to access but usually not used as often.
+One recommendation is to use xcape so CapsLock can be used as Esc and Ctrl simultaneously:
+```
+setxbmap -option 'caps:ctrl_modifier'
+xcape -e '#66=Escape'
+```
+xcape can be found in many distributions repositories, or on github: https://github.com/alols/xcape
