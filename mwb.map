@@ -1,0 +1,131 @@
+!
+! MatteoWickiBande-layout, console keymap version
+!
+!   Original from: https://github.com/MatteoWickiBande/mwb-layout
+!   This file was edited by: Patrick Wicki (Nov 2016)
+!
+! This file is free software; you can redistribute it and/or modify
+! it under the terms of the GNU General Public License as published by
+! the Free Software Foundation; either version 3 of the License, or
+! (at your option) any later version.
+!
+! This program is distributed in the hope that it will be useful,
+! but WITHOUT ANY WARRANTY; without even the implied warranty of
+! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+! GNU General Public License for more details.
+!
+! You should have received a copy of the GNU General Public License
+! along with this program; if not, write to the Free Software
+! Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+!
+
+! --------------------------------------------------------------------------
+! Settings
+! --------------------------------------------------------------------------
+	keymaps 0-127
+	compose as usual
+	strings as usual
+
+! --------------------------------------------------------------------------
+! Special keys
+! --------------------------------------------------------------------------
+	keycode 100 = CtrlL            	# New mod key, used for the additional layer
+	keycode   1 = Caps_Lock 	# Swap caps and Esc
+	keycode  58 = Escape
+
+! --------------------------------------------------------------------------
+! Num row
+! --------------------------------------------------------------------------
+	keycode  41 = dollar         asciitilde
+	keycode   2 = ampersand      percent
+	keycode   3 = bracketleft    seven
+	keycode   4 = braceleft      five
+	keycode   5 = braceright     three
+	keycode   6 = parenleft      one
+	keycode   7 = equal          nine
+	keycode   8 = asterisk       zero
+	keycode   9 = parenright     two
+	keycode  10 = plus           four
+	keycode  11 = bracketright   six
+	keycode  12 = exclam         eight
+	keycode  13 = numbersign     tilde
+	keycode  14 = Delete
+
+! --------------------------------------------------------------------------
+! Upper row
+! --------------------------------------------------------------------------
+	keycode  15 = Tab
+	keycode  16 = semicolon      colon
+	keycode  17 = comma          less
+ctrll   keycode  17 = Home
+	keycode  18 = period         greater
+ctrll   keycode  18 = Up
+	keycode  19 = p
+ctrll   keycode  19 = End
+	keycode  20 = y
+ctrll   keycode  20 = PageUp
+	keycode  21 = f
+	keycode  22 = g
+ctrll   keycode  22 = seven
+	keycode  23 = c
+ctrll   keycode  23 = eight
+	keycode  24 = r
+ctrll   keycode  24 = nine
+	keycode  25 = l
+	keycode  26 = slash          question
+	keycode  27 = at             asciicircum
+	keycode  28 = Return
+
+! --------------------------------------------------------------------------
+! Home row (where your fingers should spend the most time)
+! --------------------------------------------------------------------------
+	keycode  30 = a
+	keycode  31 = o
+ctrll   keycode  31 = Left
+	keycode  32 = e
+ctrll   keycode  32 = Down
+	keycode  33 = u
+ctrll   keycode  33 = Right
+	keycode  34 = i
+ctrll   keycode  34 = PageDown
+	keycode  35 = d
+ctrll   keycode  35 = Return
+	keycode  36 = h
+ctrll   keycode  36 = four 
+	keycode  37 = t
+ctrll   keycode  37 = five
+	keycode  38 = n
+ctrll   keycode  38 = six
+	keycode  39 = s
+	keycode  40 = minus          underscore
+	keycode  43 = backslash      bar
+
+! --------------------------------------------------------------------------
+! Lower row
+! --------------------------------------------------------------------------
+	keycode  42 = Shift
+	keycode  44 = apostrophe     quotedbl
+	keycode  45 = q
+	keycode  46 = j
+	keycode  47 = k
+	keycode  48 = x
+ctrll   keycode  48 = Delete
+	keycode  49 = b
+ctrll   keycode  49 = BackSpace
+	keycode  50 = m
+ctrll   keycode  50 = one
+	keycode  51 = w
+ctrll   keycode  51 = two
+	keycode  52 = v
+ctrll   keycode  52 = three
+	keycode  53 = z
+	keycode  54 = Shift
+
+! --------------------------------------------------------------------------
+! Bottom row
+! --------------------------------------------------------------------------
+	keycode  29 = Control
+	keycode  56 = Alt
+	keycode  57 = space
+	keycode  97 = Control
+

@@ -28,11 +28,11 @@ setxkbmap mwb
 Note, that the location of the console keymaps differ between distributions.
 On Gentoo:
 ```
-cp mwb.map.gz /usr/share/keymaps/i386/dvorak/
+cp mwb.map /usr/share/keymaps/i386/dvorak/
 ```
 On Arch/Parabola:
 ```
-cp mwb.map.gz /usr/share/kbd/keymaps/i386/dvorak/
+cp mwb.map /usr/share/kbd/keymaps/i386/dvorak/
 ```
 To load the keymap temporarily in your tty:
 ```
