@@ -6,70 +6,70 @@ xkb_symbols "dvp" {
     key.type[Group1] = "EIGHT_LEVEL";
 
     // symbols row, left side
-    key <TLDE> { [ dollar,          asciitilde,     NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE01> { [ ampersand,       percent,        NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE02> { [ bracketleft,     7,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE03> { [ braceleft,       5,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE04> { [ braceright,      3,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE05> { [ parenleft,       1,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE06> { [ equal,           9,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <TLDE> { [ dollar,          asciitilde,     NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE01> { [ ampersand,       percent,        NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE02> { [ bracketleft,     7,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE03> { [ braceleft,       5,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE04> { [ braceright,      3,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE05> { [ parenleft,       1,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE06> { [ equal,           9,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // symbols row, right side
-    key <AE07> { [ asterisk,        0,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE08> { [ parenright,      2,              NoSymbol,        NoSymbol,        dead_diaeresis              ] };
-    key <AE09> { [ plus,            4,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE10> { [ bracketright,    6,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE11> { [ exclam,          8,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AE12> { [ numbersign,      grave,          NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <BKSP> { [ NoSymbol,        NoSymbol,       NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AE07> { [ asterisk,        0,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE08> { [ parenright,      2,              NoSymbol,   NoSymbol,   dead_diaeresis,   NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE09> { [ plus,            4,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE10> { [ bracketright,    6,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE11> { [ exclam,          8,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE12> { [ numbersign,      grave,          NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <BKSP> { [ NoSymbol,        NoSymbol,       NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // upper row, left side
-    key <AD01> { [ semicolon,       colon,          NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AD02> { [ comma,           less,           NoSymbol,        NoSymbol,        Home                        ] };
-    key <AD03> { [ period,          greater,        NoSymbol,        NoSymbol,        Up                          ] };
-    key <AD04> { [ p,               P,              NoSymbol,        NoSymbol,        End                         ] };
-    key <AD05> { [ y,               Y,              NoSymbol,        NoSymbol,        Prior                       ] };
+    key <AD01> { [ semicolon,       colon,          NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD02> { [ comma,           less,           NoSymbol,   NoSymbol,   Home,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD03> { [ period,          greater,        NoSymbol,   NoSymbol,   Up,               Up,         NoSymbol,   NoSymbol ] };
+    key <AD04> { [ p,               P,              NoSymbol,   NoSymbol,   End,              NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD05> { [ y,               Y,              NoSymbol,   NoSymbol,   Prior,            NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // upper row, right side
-    key <AD06> { [ f,               F,              NoSymbol,        NoSymbol,        Return                      ] };
-    key <AD07> { [ g,               G,              NoSymbol,        NoSymbol,        KP_7                        ] };
-    key <AD08> { [ c,               C,              NoSymbol,        NoSymbol,        KP_8                        ] };
-    key <AD09> { [ r,               R,              NoSymbol,        NoSymbol,        KP_9                        ] };
-    key <AD10> { [ l,               L,              NoSymbol,        NoSymbol,        Delete                      ] };
-    key <AD11> { [ slash,           question,       NoSymbol,        NoSymbol,        asterisk                    ] };
-    key <AD12> { [ at,              asciicircum,    NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AD06> { [ f,               F,              NoSymbol,   NoSymbol,   Return,           NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD07> { [ g,               G,              NoSymbol,   NoSymbol,   KP_7,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD08> { [ c,               C,              NoSymbol,   NoSymbol,   KP_8,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD09> { [ r,               R,              NoSymbol,   NoSymbol,   KP_9,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD10> { [ l,               L,              NoSymbol,   NoSymbol,   Delete,           NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD11> { [ slash,           question,       NoSymbol,   NoSymbol,   asterisk,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AD12> { [ at,              asciicircum,    NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // home row, left side
-    key <AC01> { [ a,               A,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AC02> { [ o,               O,              NoSymbol,        NoSymbol,        Left                        ] };
-    key <AC03> { [ e,               E,              NoSymbol,        NoSymbol,        Down                        ] };
-    key <AC04> { [ u,               U,              NoSymbol,        NoSymbol,        Right                       ] };
-    key <AC05> { [ i,               I,              NoSymbol,        NoSymbol,        Next                        ] };
+    key <AC01> { [ a,               A,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC02> { [ o,               O,              NoSymbol,   NoSymbol,   Left,             Left,       NoSymbol,   NoSymbol ] };
+    key <AC03> { [ e,               E,              NoSymbol,   NoSymbol,   Down,             Down,       NoSymbol,   NoSymbol ] };
+    key <AC04> { [ u,               U,              NoSymbol,   NoSymbol,   Right,            Right,      NoSymbol,   NoSymbol ] };
+    key <AC05> { [ i,               I,              NoSymbol,   NoSymbol,   Next,             NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // home row, right side
-    key <AC06> { [ d,               D,              NoSymbol,        NoSymbol,        Return                      ] };
-    key <AC07> { [ h,               H,              NoSymbol,        NoSymbol,        KP_4                        ] };
-    key <AC08> { [ t,               T,              NoSymbol,        NoSymbol,        KP_5                        ] };
-    key <AC09> { [ n,               N,              NoSymbol,        NoSymbol,        KP_6                        ] };
-    key <AC10> { [ s,               S,              NoSymbol,        NoSymbol,        BackSpace                   ] };
-    key <AC11> { [ minus,           underscore,     NoSymbol,        NoSymbol,        plus                        ] };
-    key <BKSL> { [ backslash,       bar,            NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AC06> { [ d,               D,              NoSymbol,   NoSymbol,   Return,           NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC07> { [ h,               H,              NoSymbol,   NoSymbol,   KP_4,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC08> { [ t,               T,              NoSymbol,   NoSymbol,   KP_5,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC09> { [ n,               N,              NoSymbol,   NoSymbol,   KP_6,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC10> { [ s,               S,              NoSymbol,   NoSymbol,   BackSpace,        NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AC11> { [ minus,           underscore,     NoSymbol,   NoSymbol,   plus,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <BKSL> { [ backslash,       bar,            NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // lower row, left side
-    key <AB01> { [ apostrophe,      quotedbl,       NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB02> { [ q,               Q,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB03> { [ j,               J,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB04> { [ k,               K,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB05> { [ x,               X,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
+    key <AB01> { [ apostrophe,      quotedbl,       NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB02> { [ q,               Q,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB03> { [ j,               J,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB04> { [ k,               K,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB05> { [ x,               X,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // lower row, right side
-    key <AB06> { [ b,               B,              NoSymbol,        NoSymbol,        NoSymbol                    ] };
-    key <AB07> { [ m,               M,              NoSymbol,        NoSymbol,        KP_1                        ] };
-    key <AB08> { [ w,               W,              NoSymbol,        NoSymbol,        KP_2                        ] };
-    key <AB09> { [ v,               V,              NoSymbol,        NoSymbol,        KP_3                        ] };
-    key <AB10> { [ z,               Z,              NoSymbol,        NoSymbol,        period                      ] };
+    key <AB06> { [ b,               B,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB07> { [ m,               M,              NoSymbol,   NoSymbol,   KP_1,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB08> { [ w,               W,              NoSymbol,   NoSymbol,   KP_2,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB09> { [ v,               V,              NoSymbol,   NoSymbol,   KP_3,             NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AB10> { [ z,               Z,              NoSymbol,   NoSymbol,   period,           NoSymbol,   NoSymbol,   NoSymbol ] };
 
-    key <SPCE> { [ space,           space,          NoSymbol,        NoSymbol,        KP_0                        ] };
+    key <SPCE> { [ space,           space,          NoSymbol,   NoSymbol,   KP_0,             NoSymbol,   NoSymbol,   NoSymbol ] };
 
     include "level5(lsgt_switch)"
 
