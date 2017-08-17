@@ -110,6 +110,7 @@ CtrlL	keycode  40 = plus
 	keycode  42 = Shift
 	keycode  44 = apostrophe     quotedbl
 	keycode  45 = q
+CtrlL   keycode  45 = Insert
 	keycode  46 = j
 	keycode  47 = k
 	keycode  48 = x
