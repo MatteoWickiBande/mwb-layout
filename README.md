@@ -51,7 +51,7 @@ keymap="mwb"
 The layout does not change the behaviour of the Capslock key. However, it is advised that the user does that, since this key is, compared to Esc and Ctrl, easy to access but usually not used as often.
 One recommendation is to use xcape so CapsLock can be used as Esc and Ctrl simultaneously:
 ```
-setxbmap -option 'caps:ctrl_modifier'
+setxkbmap -option 'caps:ctrl_modifier'
 xcape -e '#66=Escape'
 ```
 xcape can be found in many distributions repositories, or on github: https://github.com/alols/xcape
