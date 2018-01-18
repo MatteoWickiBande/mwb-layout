@@ -10,12 +10,12 @@ xkb_symbols "dvp" {
     key <AE01> { [ ampersand,       percent,        NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE02> { [ bracketleft,     7,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE03> { [ braceleft,       5,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
-    key <AE04> { [ braceright,      3,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE04> { [ braceright,      3,              NoSymbol,   NoSymbol,   dead_circumflex,  NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE05> { [ parenleft,       1,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE06> { [ equal,           9,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
 
     // symbols row, right side
-    key <AE07> { [ asterisk,        0,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
+    key <AE07> { [ asterisk,        0,              NoSymbol,   NoSymbol,   dead_breve,       NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE08> { [ parenright,      2,              NoSymbol,   NoSymbol,   dead_diaeresis,   NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE09> { [ plus,            4,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
     key <AE10> { [ bracketright,    6,              NoSymbol,   NoSymbol,   NoSymbol,         NoSymbol,   NoSymbol,   NoSymbol ] };
